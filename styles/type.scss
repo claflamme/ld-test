@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Playfair Display";
+  src: url("/fonts/PlayfairDisplay-BlackItalic.woff2") format("woff2"),
+    url("/fonts/PlayfairDisplay-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("/fonts/PlayfairDisplay-Bold.woff2") format("woff2"),
+    url("/fonts/PlayfairDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("/fonts/Lato-Regular.woff2") format("woff2"),
+    url("/fonts/Lato-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("/fonts/PlayfairDisplay-Black.woff2") format("woff2"),
+    url("/fonts/PlayfairDisplay-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}

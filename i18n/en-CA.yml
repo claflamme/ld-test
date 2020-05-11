@@ -1,0 +1,17 @@
+nav:
+  skip: Skip to main content
+home:
+  title: Categories
+category:
+  title: Meals under "{category}"
+  notFound: Whoops! Looks like there's nothing in that category.
+  back: ⭠ Back to the category listing
+  imgAlt: Picture of {name}
+meal:
+  imgAlt: Picture of {name}
+  ingredients: Ingredients
+  skipIngredients: Skip over ingredients list
+  instructions: Instructions
+  source: via {url}
+  videoTitle: Video of this recipe being prepared
+  noIngredients: Uh oh, this recipe doesn't have any ingredients listed!

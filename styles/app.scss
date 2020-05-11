@@ -1,0 +1,35 @@
+@import "./type";
+@import "./variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.bg-pattern {
+  background-image: url("/bg-pattern.png");
+}
+
+.list-group-item {
+  transition: 100ms background-color;
+}
+
+.meal-img-caption {
+  background-color: $black;
+  position: absolute;
+  bottom: map-get($spacers, 2);
+  right: map-get($spacers, 2);
+  border-radius: $border-radius;
+  font-size: $font-size-sm;
+
+  a {
+    display: block;
+    color: $white;
+    text-decoration: underline;
+    padding: map-get($spacers, 1) map-get($spacers, 2);
+  }
+}
+
+.card-meal {
+  transition: 200ms transform;
+
+  &:hover {
+    transform: translateY(-2.5%);
+  }
+}
