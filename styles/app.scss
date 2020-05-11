@@ -30,6 +30,8 @@
   transition: 200ms transform;
 
   &:hover {
-    transform: translateY(-2.5%);
+    @include media-breakpoint-up(md) {
+      transform: translateY(-2.5%);
+    }
   }
 }
