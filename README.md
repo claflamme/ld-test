@@ -14,6 +14,7 @@ npm i && npm run dev
 
 - Since this would be a website about recipes, SEO would be important. To that end, each page is either statically compiled or server-rendered.
 - Permalinks would be important for sharing the site. Each resource can be accessed through a distinct copy/pasteable URL.
+- Might be obvious, but a requirement for a responsive layout.
 - Accessibility is important, since people of all makes and models like to cook. I aimed for AA and validated pages using ChromeVox and the aXe browser extension.
 - The order in which the list of categories is returned is representative of the desired display order.
 - Category names will always be single-word entities without special characters, since they seem to serve as the primary ID for that resource and would therefore be used in URLs.
